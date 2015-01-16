@@ -10,7 +10,9 @@
             </c:if>
             <li><a href="index.html">首页</a></li>
             <li><a href="myhome.html">个人中心</a></li>
+            <!-- 
             <li><a href="myshop.html">我的店铺</a></li>
+             -->
             <c:choose>
             	<c:when test="${sessionScope.USER_CONTEXT != null }">
             		<li><a href="logout.html">安全退出</a></li>
